@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyPayApi", "EasyPayApi\EasyPayApi.csproj", "{001C8C04-044D-44FD-84DA-98069EC05679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{001C8C04-044D-44FD-84DA-98069EC05679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001C8C04-044D-44FD-84DA-98069EC05679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001C8C04-044D-44FD-84DA-98069EC05679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001C8C04-044D-44FD-84DA-98069EC05679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D24774E-B375-4566-9B00-40FAF5008D85}
+	EndGlobalSection
+EndGlobal

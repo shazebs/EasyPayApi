@@ -1,0 +1,19 @@
+﻿CREATE TABLE Accounts 
+(
+    id          INT IDENTITY(1,1)   PRIMARY KEY,
+    email       VARCHAR(50)         NOT NULL,
+    username    VARCHAR(50)         NOT NULL,
+    pass_word   VARCHAR(400)        NOT NULL,
+    stripe_key  VARCHAR(400)        NOT NULL,
+);
+
+CREATE TABLE easypay_catalog 
+(
+    id          INT IDENTITY(1,1)   PRIMARY KEY,
+    username    VARCHAR(50)         NOT NULL,
+    item_name   VARCHAR(200)        NOT NULL,
+    price       DECIMAL(10,2)       NOT NULL,
+    currency    VARCHAR(5)          NOT NULL,
+    image_url   VARCHAR(500)        NOT NULL,
+);
+
